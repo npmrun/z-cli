@@ -6,6 +6,7 @@ import dedent from "dedent";
 import md from './my.md?raw';
 import Gradient from 'ink-gradient';
 import BigText from 'ink-big-text';
+import Spinner from 'ink-spinner';
 
 function TabExample(props) {
     const [activeTabName, setActiveTabName] = useState(null);
